@@ -8,6 +8,7 @@ function App() {
      
      <Fullname name="ASHENAFI">
       <p>Hello this is Ashenafi Tesfaye</p>
+      <button>Click Me</button>
 </Fullname>
      <Fullname name="FIKIRU"/>
      <Fullname name="KENA"/>
