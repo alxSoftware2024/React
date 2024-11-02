@@ -4,6 +4,7 @@ import Fullname  from './componet/props';
 import EventFunction from './componet/EventFunction'
 import Event_on_class from './componet/Event_on_class'
 import State from './componet/State'
+import List from './componet/list';
 import './App.css';
 function App() {
   return (
@@ -18,7 +19,8 @@ function App() {
      //<EventFunction/>
  */}
  {/* <Event_on_class/> */}
- <State />
+ {/* <State /> */}
+ <List />
     </div>
   );
 }
