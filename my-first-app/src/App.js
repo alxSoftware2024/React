@@ -3,7 +3,7 @@ import Hi from './componet/classComponet';
 import Fullname  from './componet/props';
 import EventFunction from './componet/EventFunction'
 import Event_on_class from './componet/Event_on_class'
-
+import State from './componet/State'
 import './App.css';
 function App() {
   return (
@@ -17,7 +17,8 @@ function App() {
      <Fullname name="KENA"/>
      //<EventFunction/>
  */}
- <Event_on_class/>
+ {/* <Event_on_class/> */}
+ <State />
     </div>
   );
 }
