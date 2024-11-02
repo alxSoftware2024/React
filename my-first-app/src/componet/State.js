@@ -7,6 +7,7 @@ class State extends Component {
       this.state = {
          msg:"Subscribe"
       }
+      this.Message=this.Message.bind(this);
     }
     Message(){
         this.setState({
@@ -19,7 +20,8 @@ class State extends Component {
       <div>
 <h1>{this.state.msg}</h1>
 {/* <button onClick={this.Message.bind(this)}>click</button> */}
-<button onClick={()=>this.Message()}>click</button>
+{/* <button onClick={()=>this.Message()}>click</button> */}
+ <button onClick={this.Message}>click</button> 
 
       </div>
     )
