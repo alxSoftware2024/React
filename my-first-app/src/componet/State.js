@@ -18,7 +18,9 @@ class State extends Component {
     return (
       <div>
 <h1>{this.state.msg}</h1>
-<button onClick={this.Message.bind(this)}>click</button>
+{/* <button onClick={this.Message.bind(this)}>click</button> */}
+<button onClick={()=>this.Message()}>click</button>
+
       </div>
     )
   }
