@@ -7,6 +7,7 @@ import State from './componet/State'
 import List from './componet/list';
 import './App.css';
 import Stylepage from './componet/Stylepage.js'
+import InlineStyle from './componet/InlineStyle'
 function App() {
   return (
     <div className="App">
@@ -22,7 +23,8 @@ function App() {
  {/* <Event_on_class/> */}
  {/* <State /> */}
   {/* <List />  */}
- <Stylepage heading={true}/>
+ {/* <Stylepage heading={true}/> */}
+ <InlineStyle />
     </div>
   );
 }
