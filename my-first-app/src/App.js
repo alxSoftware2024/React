@@ -8,6 +8,7 @@ import List from './componet/list';
 import './App.css';
 import Stylepage from './componet/Stylepage.js'
 import InlineStyle from './componet/InlineStyle'
+import Form from './componet/Form'
 function App() {
   return (
     <div className="App">
@@ -24,7 +25,8 @@ function App() {
  {/* <State /> */}
   {/* <List />  */}
  {/* <Stylepage heading={true}/> */}
- <InlineStyle />
+ {/* <InlineStyle /> */}
+ <Form />
     </div>
   );
 }
