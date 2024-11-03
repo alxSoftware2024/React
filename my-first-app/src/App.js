@@ -6,6 +6,7 @@ import Event_on_class from './componet/Event_on_class'
 import State from './componet/State'
 import List from './componet/list';
 import './App.css';
+import Stylepage from './componet/Stylepage.js'
 function App() {
   return (
     <div className="App">
@@ -20,7 +21,8 @@ function App() {
  */}
  {/* <Event_on_class/> */}
  {/* <State /> */}
- <List />
+  {/* <List />  */}
+ <Stylepage heading={true}/>
     </div>
   );
 }
