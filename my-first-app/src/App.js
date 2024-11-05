@@ -9,10 +9,32 @@ import './App.css';
 import Stylepage from './componet/Stylepage.js'
 import InlineStyle from './componet/InlineStyle'
 import Form from './componet/Form'
+import {BrowserRouter as Router,Routes,Route,Link} from 'react-router-dom'
+import Home from './Router/Home';
+import Contact from './Router/Contact';
+import About from './Router/About';
 function App() {
   return (
     <div className="App">
-     
+        <Router>
+          <nav>
+            <Link to='/'>Home</Link>
+            <Link to='/About'>About Us</Link>
+            <Link to='/Contact'>Contact Us</Link>
+          </nav>
+<Routes>
+  <Route path='/' element={<Home />}/>
+  <Route path='/About' element={<About/>}/>
+  <Route path='/Contact' element={<Contact/>}/>
+  <Route path='*' element={<h1>Page Not Found</h1>}/>
+
+</Routes>
+
+     </Router>
+
+
+
+
      {/* <Fullname name="ASHENAFI">
       <p>Hello this is Ashenafi Tesfaye</p>
       <button>Click Me</button>
@@ -26,7 +48,7 @@ function App() {
   {/* <List />  */}
  {/* <Stylepage heading={true}/> */}
  {/* <InlineStyle /> */}
- <Form />
+ {/* <Form /> */}
     </div>
   );
 }
