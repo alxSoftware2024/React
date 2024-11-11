@@ -14,10 +14,13 @@ import Home from './Router/Home';
 import Contact from './Router/Contact';
 import About from './Router/About';
 import Usestates from './Hooks/Usestates'
+import Usestates2 from './Hooks/Usestates2'
+
 function App() {
   return (
     <div className="App">
-      <Usestates/>
+      <Usestates2/>
+      {/* <Usestates/> */}
         {/* <Router>
           <nav>
             <Link to='/'>Home</Link>
