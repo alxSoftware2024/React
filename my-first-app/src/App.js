@@ -13,10 +13,12 @@ import {BrowserRouter as Router,Routes,Route,Link} from 'react-router-dom'
 import Home from './Router/Home';
 import Contact from './Router/Contact';
 import About from './Router/About';
+import Usestates from './Hooks/Usestates'
 function App() {
   return (
     <div className="App">
-        <Router>
+      <Usestates/>
+        {/* <Router>
           <nav>
             <Link to='/'>Home</Link>
             <Link to='/About'>About Us</Link>
@@ -30,7 +32,7 @@ function App() {
 
 </Routes>
 
-     </Router>
+     </Router> */}
 
 
 
