@@ -6,6 +6,8 @@ const[count,setCounter]=useState(0);
     <div>
 <p>Your current count is{count}</p>
 <button onClick={()=>setCounter(count+1)}>ADD</button>
+<button onClick={()=>setCounter(count-1)}>SUB</button>
+
     </div>
   )
 }
