@@ -15,11 +15,12 @@ import Contact from './Router/Contact';
 import About from './Router/About';
 import Usestates from './Hooks/Usestates'
 import Usestates2 from './Hooks/Usestates2'
-
+import Useeffect1 from './Hooks/Useeffect1'
 function App() {
   return (
     <div className="App">
-      <Usestates2/>
+      <Useeffect1/>
+      {/* <Usestates2/> */}
       {/* <Usestates/> */}
         {/* <Router>
           <nav>
