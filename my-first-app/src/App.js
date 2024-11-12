@@ -16,10 +16,13 @@ import About from './Router/About';
 import Usestates from './Hooks/Usestates'
 import Usestates2 from './Hooks/Usestates2'
 import Useeffect1 from './Hooks/Useeffect1'
+import Useeffect2 from './Hooks/Useeffect2'
+
 function App() {
   return (
     <div className="App">
-      <Useeffect1/>
+      <Useeffect2/>
+      {/* <Useeffect1/> */}
       {/* <Usestates2/> */}
       {/* <Usestates/> */}
         {/* <Router>
