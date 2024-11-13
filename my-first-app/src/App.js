@@ -18,17 +18,24 @@ import Usestates2 from './Hooks/Usestates2'
 import Useeffect1 from './Hooks/Useeffect1'
 import Useeffect2 from './Hooks/Useeffect2'
 import Usecontext from './Hooks/Usecontext'
+import Usecontext2 from './Hooks/Usecontext2'
+import {useState} from 'react'
 import React from 'react'
+//export const custmerName=React.createContext()
 
 export const Ownercontext=React.createContext()
-
 function App() {
+  // const [name,setName]=useState('Ashenafi')
   return (
     <div className="App">
-<Ownercontext.Provider value={'Ashenafi'}>
-<Usecontext/>
 
-</Ownercontext.Provider>
+      {/* <custmerName.Provider value={"Ashenafi"}>
+<Usecontext2/>
+      </custmerName.Provider> */}
+{ <Ownercontext.Provider value={'Ashenafi'}>
+<Usecontext2/>
+
+</Ownercontext.Provider> }
       {/* <Useeffect2/> */}
       {/* <Useeffect1/> */}
       {/* <Usestates2/> */}
