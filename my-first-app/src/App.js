@@ -19,7 +19,7 @@ import Usestates3 from './Hooks/Usestates3'
 import Useeffect1 from './Hooks/Useeffect1'
 import Useeffect2 from './Hooks/Useeffect2'
 import Usecontext from './Hooks/Usecontext'
-import Usecontext2 from './Hooks/Usecontext2'
+import UseRef from './Hooks/UseRef'
 import {useState} from 'react'
 import React from 'react'
 //export const custmerName=React.createContext()
@@ -29,7 +29,8 @@ function App() {
   // const [name,setName]=useState('Ashenafi')
   return (
     <div className="App">
-      <Usestates3/>
+      <UseRef/>
+{/* <Usestates3/> */}
 
       {/* <custmerName.Provider value={"Ashenafi"}>
 <Usecontext2/>
