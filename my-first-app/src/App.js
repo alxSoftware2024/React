@@ -15,6 +15,7 @@ import Contact from './Router/Contact';
 import About from './Router/About';
 import Usestates from './Hooks/Usestates'
 import Usestates2 from './Hooks/Usestates2'
+import Usestates3 from './Hooks/Usestates3'
 import Useeffect1 from './Hooks/Useeffect1'
 import Useeffect2 from './Hooks/Useeffect2'
 import Usecontext from './Hooks/Usecontext'
@@ -28,14 +29,15 @@ function App() {
   // const [name,setName]=useState('Ashenafi')
   return (
     <div className="App">
+      <Usestates3/>
 
       {/* <custmerName.Provider value={"Ashenafi"}>
 <Usecontext2/>
       </custmerName.Provider> */}
-{ <Ownercontext.Provider value={'Ashenafi'}>
+{/* { <Ownercontext.Provider value={'Ashenafi'}>
 <Usecontext2/>
 
-</Ownercontext.Provider> }
+</Ownercontext.Provider> } */}
       {/* <Useeffect2/> */}
       {/* <Useeffect1/> */}
       {/* <Usestates2/> */}
