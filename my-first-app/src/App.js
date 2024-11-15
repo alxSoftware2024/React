@@ -30,7 +30,8 @@ function App() {
   // const [name,setName]=useState('Ashenafi')
   return (
     <div className="App">
-      <UseRef2/>
+      <UseReducer/>
+      {/* <UseRef2/> */}
       {/* <UseRef/> */}
 {/* <Usestates3/> */}
 
