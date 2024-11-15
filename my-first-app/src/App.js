@@ -21,6 +21,7 @@ import Useeffect2 from './Hooks/Useeffect2'
 import Usecontext from './Hooks/Usecontext'
 import UseRef from './Hooks/UseRef'
 import UseRef2 from './Hooks/UseRef2'
+import UseReducer from './Hooks/UseReducer';
 import {useState} from 'react'
 import React from 'react'
 //export const custmerName=React.createContext()
