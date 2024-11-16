@@ -1,11 +1,11 @@
 import React from 'react'
 import {useStore} from './zustand'
 function Bears() {
-    const bears=useStore(state=>state.bears)
-    const increasePopulation=useStore(state=>state.increasePopulation)
-    const dicreasePopulation=useStore(state=>state.dicreasePopulation)
-    const removeAllBears=useStore(state=>state.removeAllBears)
-
+    // const bears=useStore(state=>state.bears)
+    // const increasePopulation=useStore(state=>state.increasePopulation)
+    // const dicreasePopulation=useStore(state=>state.dicreasePopulation)
+    // const removeAllBears=useStore(state=>state.removeAllBears)
+const {bears,increasePopulation,dicreasePopulation,removeAllBears}=useStore();
     
   return (
     <div>
