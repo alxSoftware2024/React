@@ -24,6 +24,7 @@ import UseRef2 from './Hooks/UseRef2'
 import UseReducer from './Hooks/UseReducer';
 import {useState} from 'react'
 import React from 'react'
+import Bears from './zustand/Bears'
 //export const custmerName=React.createContext()
 
 export const Ownercontext=React.createContext()
@@ -31,7 +32,8 @@ function App() {
   // const [name,setName]=useState('Ashenafi')
   return (
     <div className="App">
-      <UseReducer/>
+      <Bears/>
+      {/* <UseReducer/> */}
       {/* <UseRef2/> */}
       {/* <UseRef/> */}
 {/* <Usestates3/> */}
