@@ -26,6 +26,7 @@ import {useState} from 'react'
 import React from 'react'
 import Bears from './zustand/Bears'
 import CatList from './zustand/CatList'
+import CatList2 from './zustand/CatList2'
 
 //export const custmerName=React.createContext()
 
@@ -35,6 +36,7 @@ function App() {
   return (
     <div className="App">
       <CatList/>
+      <CatList2/>
       {/* <Bears/> */}
       {/* <UseReducer/> */}
       {/* <UseRef2/> */}
