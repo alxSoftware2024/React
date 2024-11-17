@@ -5,9 +5,10 @@ export const useStore = create((set,get) => ({
     bigcats:0,
 total:0,
   Addsmallcat: () => set((state) => ({ smallcats: state.smallcats + 1 })),
+
   Addbigcats: () => set((state) => ({bigcats: state.bigcats + 1  })),
-Summary:()=>{
-  const total=get().smallcats+get().bigcats
-  return `There is ${total} in stock`;
-}
+
+  Summary: () => set((state) => ({total: get().smallcats+get().bigcats })),
 }))
+
+
