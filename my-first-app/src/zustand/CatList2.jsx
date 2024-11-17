@@ -1,8 +1,10 @@
 import React from 'react'
 import {useStore} from './Catstore'
 function CatList2() {
-   
-const {bigcats}=useStore()
+   //All function re-render in {useStore} if we use the below syntax this slow dwon our system
+//const {bigcats}=useStore()
+//TO solve this problem use the below syntax
+const bigcats=useStore((state)=>state.bigcats)
   return (
     <div>
 <h1>Cats list</h1>
