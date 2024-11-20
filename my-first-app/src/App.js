@@ -27,16 +27,22 @@ import React from 'react'
 import Bears from './zustand/Bears'
 import CatList from './zustand/CatList'
 import CatList2 from './zustand/CatList2'
-
+import CatList3 from './zustand/CatList3'
+import Formik from './Formik/Formik'
 //export const custmerName=React.createContext()
 
 export const Ownercontext=React.createContext()
+
 function App() {
   // const [name,setName]=useState('Ashenafi')
+
   return (
     <div className="App">
-      <CatList/>
+
+<Formik/>
+      {/* <CatList/>
       <CatList2/>
+      <CatList3/> */}
       {/* <Bears/> */}
       {/* <UseReducer/> */}
       {/* <UseRef2/> */}

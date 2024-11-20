@@ -5,6 +5,7 @@ function CatList2() {
 //const {bigcats}=useStore()
 //TO solve this problem use the below syntax
 const bigcats=useStore((state)=>state.bigcats)
+//const bigcats=useStore.use.bigcats()
   return (
     <div>
 <h1>Cats list</h1>

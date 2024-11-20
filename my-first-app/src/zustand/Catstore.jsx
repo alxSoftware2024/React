@@ -12,3 +12,10 @@ total:0,
 }))
 
 
+//   Summary:()=>
+
+
+//   const total=get().smallcats+get().bigcats
+//    return `There is ${total} in stock`;
+// }
+// ))

@@ -9,7 +9,7 @@ function Useeffect1() {
     },[])
   return (
     <div>
-Your Clicked {count} times
+Your Clicked {count} timed.
 <button onClick={()=>counterUpdater(count+1)}>Clicked</button>
     </div>
   )
