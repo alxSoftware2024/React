@@ -32,19 +32,28 @@ import Formik from './Formik/Formik'
 import Formik2 from './Formik/Formik2'
 
 import SWRExample from './dataHandling/SWRExample'
+import ReactQueryExample from './dataHandling/ReactQueryExample'
+import { QueryClient, QueryClientProvider } from 'react-query';
+
+
 //export const custmerName=React.createContext()
 
 export const Ownercontext=React.createContext()
-
+// Create a client
+const queryClient = new QueryClient();
 function App() {
   // const [name,setName]=useState('Ashenafi')
 
   return (
     <div className="App">
-{/* DATA HANDLING */}
-{/* <SWRExample/> */}
+      {/* DATA HANDLING USING useQuery*/}
+      <QueryClientProvider client={queryClient}>
+    <ReactQueryExample />
+  </QueryClientProvider>
+  {/* DATA HANDLING USING SWR*/}
+{/* <SWRExample/>  */}
 {/* Formik */}
- <Formik2/> 
+ {/* <Formik2/>  */}
       {/* <CatList/>
       <CatList2/>
       <CatList3/> */}

@@ -5,7 +5,7 @@ const fetcher = (url) => fetch(url).then(res => res.json());
 
 const SWRExample = () => {
     // Use the useSWR hook to handle data fetching and caching
-    const { data, error } = useSWR('https://api.example.com/data', fetcher);
+    const { data, error } = useSWR('https://jsonplaceholder.typicode.com/posts', fetcher);
 
     if (error) return <div>Error loading data</div>;
     if (!data) return <div>Loading...</div>;
@@ -13,7 +13,7 @@ const SWRExample = () => {
     return (
         <div>
             {data.map(item => (
-                <div key={item.id}>{item.name}</div>
+                <div key={item.id}>{item.title}</div>
             ))}
         </div>
     );
