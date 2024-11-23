@@ -29,6 +29,8 @@ import CatList from './zustand/CatList'
 import CatList2 from './zustand/CatList2'
 import CatList3 from './zustand/CatList3'
 import Formik from './Formik/Formik'
+import Formik2 from './Formik/Formik2'
+
 import SWRExample from './dataHandling/SWRExample'
 //export const custmerName=React.createContext()
 
@@ -40,9 +42,9 @@ function App() {
   return (
     <div className="App">
 {/* DATA HANDLING */}
-<SWRExample/>
+{/* <SWRExample/> */}
 {/* Formik */}
-{/* <Formik/> */}
+ <Formik2/> 
       {/* <CatList/>
       <CatList2/>
       <CatList3/> */}
