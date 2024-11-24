@@ -34,7 +34,7 @@ import Formik2 from './Formik/Formik2'
 import SWRExample from './dataHandling/SWRExample'
 import ReactQueryExample from './dataHandling/ReactQueryExample'
 import { QueryClient, QueryClientProvider } from 'react-query';
-
+import NestedRouting from './Router/NestedRouting'
 
 //export const custmerName=React.createContext()
 
@@ -46,10 +46,12 @@ function App() {
 
   return (
     <div className="App">
+      {/* NestedRouting */}
+      <NestedRouting/>
       {/* DATA HANDLING USING useQuery*/}
-      <QueryClientProvider client={queryClient}>
+     {/* <QueryClientProvider client={queryClient}>
     <ReactQueryExample />
-  </QueryClientProvider>
+  </QueryClientProvider> */}
   {/* DATA HANDLING USING SWR*/}
 {/* <SWRExample/>  */}
 {/* Formik */}
